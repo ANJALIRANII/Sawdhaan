@@ -1,5 +1,5 @@
 """
-ASGI config for did_django_google_api_tutorial project.
+ASGI config for safety_planning_map project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'did_django_google_api_tutorial.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'safety_planning_map.settings')
 
 application = get_asgi_application()
